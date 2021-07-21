@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #020202;
+}
+.option-box .color-box,
+.features .feat,
+.testimonial .carousel-indicators li.active,
+.contact-us input[type="text"]:focus,
+.contact-us textarea:focus,
+.price-box p {
+    border: 2px solid #0090EC;
+}
+.option-box .color-box ul li,
+.option-box .color-check,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.subscribe .sub {
+    background-color: #00A0A0;
+}
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.dropdown-menu>li>a,
+.carousel-control.right:hover,
+.carousel-control.left:hover,
+.carousel-caption,
+.about h2 span,
+.features .feat h3,
+.testimonial h1 strong,
+.testimonial span,
+.price-box p,
+.team .person h2,
+.footer h3,
+.footer .copyright, 
+.footer .copyright span {
+    color:#0090EC;
+}
+.navbar-inverse .navbar-brand span {
+    color: #00A0A0;
+    text-shadow: 0px 0px 60px #00A0A0
+}
+.navbar-nav>li>.dropdown-menu {
+    border-top: 1px solid #00A0A0
+}
+.dropdown-menu .divider {
+	background-color: #0090EC
+}
+.carousel-indicators li {
+	border-color: #0090EC
+}
+.carousel-indicators .active {
+	background-color: #0090EC;
+	border-color: #0090EC
+}
+.testimonial h1 strong:hover{
+	border-bottom: 3px solid #0090EC;
+}
+.price-table .price-box {
+	border: 2px solid #7CA0BB;
+	background-color: rgba(0,160,160,0.500);
+}
+.statistics h1 {
+	color: #0090EC;
+	text-shadow: 0px 0px 50px #0090EC;
+}
+.our-skills .skills-info button,
+.our-skills .progress .progress-bar {
+    background-color: #0090EC
+}
+.contact-us .image {
+    background-color: rgba(124,133,187,0.30);
+}
+.contact-us i {
+    color: #0090EC;
+    text-shadow: 0px 0px 50px #0090EC;
+}
+.contact-us form .btn {
+    background-color:#00A0A0
+}
+.contact-us form .btn:hover {
+    background-color:#7CA0BB
+}

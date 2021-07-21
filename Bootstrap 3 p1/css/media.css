@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Start Media Query */
+/* Mobile And Tablet Media */
+@media (max-width:767px) {
+    .navbar {padding-left: 0px}
+    .navbar-inverse .navbar-nav>li {margin: -15px 0px}
+    .navbar-inverse .navbar-nav>li>a {
+        color: #E5094D;
+        padding: 10px 23px;
+        font-size: 17px;
+        display: block;
+        
+    }
+    .carousel-indicators {
+        display: none
+    }
+    .subscribe .form-control {
+        margin: 10px auto;
+    }
+    .about {
+        padding-bottom: 30px;
+        padding-top: 30px
+    }
+    .about h1 {
+        font-size: 35px;
+        margin-bottom: 10px
+    }
+    .about h2 {
+        font-size: 25px;
+        margin-bottom: 0px
+    }
+    .about .lead {
+        font-size: 18px;
+        margin-top: 10px
+    }
+}
+/* Small Media */
+@media (min-width:768px) and (max-width:991px){
+    h1 {
+        font-size: 150px;
+        color: rgba(92,0,1,1.00)
+    }
+} 
+/* Medium Media */
+@media (min-width:992px) and (max-width:1199px) {
+    h1 {
+        font-size: 200px;
+        color: rgba(83,54,0,1.00)
+    }
+}
+/* Large Media */
+@media (min-width:1200px) {
+    
+}

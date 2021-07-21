@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #020202;
+}
+.option-box .color-box,
+.features .feat,
+.testimonial .carousel-indicators li.active,
+.contact-us input[type="text"]:focus,
+.contact-us textarea:focus,
+.price-box p {
+    border: 2px solid #FF4144;
+}
+.option-box .color-box ul li,
+.option-box .color-check,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.subscribe .sub {
+    background-color: #E5094D;
+}
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.dropdown-menu>li>a,
+.carousel-control.right:hover,
+.carousel-control.left:hover,
+.carousel-caption,
+.about h2 span,
+.features .feat h3,
+.testimonial h1 strong,
+.testimonial span,
+.price-box p,
+.team .person h2,
+.footer h3,
+.footer .copyright, 
+.footer .copyright span {
+    color:#fd3f1d;
+}
+.navbar-inverse .navbar-brand span {
+    color: #E5094D;
+    text-shadow: 0px 0px 10px #fd3f1d
+}
+.navbar-nav>li>.dropdown-menu {
+    border-top: 1px solid #E5094D
+}
+.dropdown-menu .divider {
+	background-color: #E5094D
+}
+.carousel-indicators li {
+	border-color: #fd3f1d
+}
+.carousel-indicators .active {
+	background-color: #fd3f1d;
+	border-color: #fd3f1d
+}
+.testimonial h1 strong:hover{
+	border-bottom: 3px solid #fd3f1d;
+}
+.price-table .price-box {
+	border: 2px solid #E5094D;
+	background-color: rgba(253,63,29,.300);
+}
+.statistics h1 {
+	color: #fd3f1d;
+	text-shadow: 0px 0px 50px #fd3f1d;
+}
+.our-skills .skills-info button,
+.our-skills .progress .progress-bar {
+    background-color: #FF4144
+}
+.contact-us .image {
+    background-color: rgba(253,63,29,.300);
+}
+.contact-us i {
+    color: #FF4144;
+    text-shadow: 0px 0px 50px #fd3f1d;
+}
+.contact-us form .btn {
+    background-color:#FF4144
+}
+.contact-us form .btn:hover {
+    background-color:#E5094D
+}
