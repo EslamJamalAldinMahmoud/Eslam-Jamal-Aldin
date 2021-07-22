@@ -679,15 +679,15 @@ body
         opacity: 1;
       }
     }@each $item, $img, $im-height, $m-top in 
-    (1, 1, 500px)
-    (2, 3, 300px)
-    (3, 2, 400px)
-    (4, g7, 300px)
-    (5, 4, 600px, -200px)
+    (1, 1, 350px)
+    (2, 3, 250px)
+    (3, 2, 300px)
+    (4, g7, 250px)
+    (5, 4, 400px, -100px)
     (6, l1, 250px, 0px)
-    (7, 5, 400px, 0px)
-    (8, 6, 500px, -150px)
-    (9, ooo, 350px) {
+    (7, 5, 300px, 0px)
+    (8, 6, 300px, -50px)
+    (9, ooo, 250px) {
       .item-#{$item}{
         background: url("../images/#{$img}.jpg")no-repeat center;
         height: $im-height;
@@ -696,7 +696,7 @@ body
     }
   }
   @each $media, $padd, $h2-f-size, $p-f-size, $i-height, $f-weight in
-  (992px, 80, 65px, 18px, 300px, 600),
+  (992px, 80, 65px, 18px, 250px, 600),
   (768px, 70px, 55px, 16px),
   (576px, 50px, 45px, 15px) {
     @media (max-width:$media){
@@ -711,7 +711,7 @@ body
         }
         .item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8,.item-9 {
           height: $i-height;
-          margin-top: 0px
+          margin: 0px 25px 25px;
         }
       }
     }
