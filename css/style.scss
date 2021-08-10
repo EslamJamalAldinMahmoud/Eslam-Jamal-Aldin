@@ -678,21 +678,6 @@ body
         top:0;
         opacity: 1;
       }
-    }@each $item, $img, $im-height, $m-top in 
-    (1, 1, 350px)
-    (2, 3, 250px)
-    (3, 2, 300px)
-    (4, g7, 250px)
-    (5, 4, 400px, -100px)
-    (6, l1, 250px, 0px)
-    (7, 5, 300px, 0px)
-    (8, 6, 300px, -50px)
-    (9, ooo, 250px) {
-      .item-#{$item}{
-        background: url("../images/#{$img}.jpg")no-repeat center;
-        height: $im-height;
-        margin-top: $m-top
-      }
     }
   }
   @each $media, $padd, $h2-f-size, $p-f-size, $i-height, $f-weight in
